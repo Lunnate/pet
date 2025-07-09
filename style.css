@@ -506,8 +506,8 @@ body {
         width: 100%;
     }
 
-    .partners__img {
-        margin-right: 40px;
+    .features, .feature--top, .feature--bottom {
+        flex-direction: column;
     }
 
     .feature__img--top {
