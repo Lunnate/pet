@@ -481,4 +481,19 @@ body {
         margin-right: 40px;
     }
 
+    .feature__img--top {
+        margin-left: 40px;
+    }
+
+    .pricing__header, .pricing__plans {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+     .pricing-card--featured {
+        margin: 0 auto;
+         transform: scale(1);
+    }
+
+
 }
