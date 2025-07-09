@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoipsum</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
 </head>
 <body>
     <header class="header">
@@ -25,25 +27,32 @@
     </header>
 
     <main class="main">
-        <section class="hero">
-            <div class="container">
+        <div class="container">
+            <section class="hero">
+
+
                 <div class="hero__text">
                     <h1 class="hero__title">Grow your subscription business</h1>
                     <p class="hero__description">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
-                    <div class="hero__buttons">
+                </div>
+
+                <div class="hero__image">
+                    <img src="assets/icons/hero.png" alt="">
+                </div>
+
+                <div class="hero__buttons">
                     <button class="btn btn--secondary">Get Started</button>
                     <svg class="array__down" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M30 0.5C46.2924 0.5 59.5 13.7076 59.5 30C59.5 46.2924 46.2924 59.5 30 59.5C13.7076 59.5 0.5 46.2924 0.5 30C0.5 13.7076 13.7076 0.5 30 0.5Z" fill="white" stroke="#E7E7E7"/>
                     <path d="M30 18.75V41.25" stroke="#19191B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M19.5 30.75L30 41.25L40.5 30.75" stroke="#19191B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-                    </div>
                 </div>
-                <div class="hero__image">
-                <img src="assets/icons/hero.png" alt="" width="610px" height="644px">
-                </div>
-            </div>
-        </section>
+
+
+            </section>
+        </div>
+
 
         <div class="container">
             <section class="partners">
@@ -57,30 +66,33 @@
                 </div>
             </section>
         </div>
-        
+
 
         <div class="container">
         <section class="features">
             <div class="feature feature--top">
-                <div class="feature__image">
-                    <img class="feature__img--top" src="assets/icons/features-1.svg" alt="" width="348px" height="473px">
-                </div>
                 <div class="feature__text-content">
                     <h2 class="feature__title">Subscription index</h2>
                     <p class="feature__description">A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p>
-                    <a href="/" class="feature__link">Lean more</a>
                 </div>
+                    <div class="feature__image">
+                        <img class="feature__img--top" src="assets/icons/features-1.svg" alt="">
+                    </div>
+                <a href="/" class="feature__link feature__link--top">Learn more</a>
             </div>
-            <div class="feature feature--bottom">
+            <div class="feature feature--bot">
                 <div class="feature__text-content">
                     <h2 class="feature__title">In-depth metrics</h2>
                     <p class="feature__description">Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
-                    <a href="" class="feature__link">Lean more</a>
                 </div>
                 <div class="feature__image">
-                    <img src="assets/icons/features-2.svg" alt="" width="348px" height="473px">
+                    <img class="feature__img--bot" src="assets/icons/features-2.svg" alt="">
+                </div>
+                <div class="feature__text-content">
+                <a href="" class="feature__link feature__link--bot">Learn more</a>
                 </div>
             </div>
+
         </section>
         </div>
 
@@ -116,7 +128,7 @@
             </section>
         </div>
 
-    
+
         <div class="container">
             <section class="pricing">
                 <div class="pricing__header">
