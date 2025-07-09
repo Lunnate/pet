@@ -500,12 +500,10 @@ body {
         justify-content: center;
     }
 
-    .hero__title {
-        font-size: 60px;
-    }
-    
-   .partners {
-        max-width: 800px;
+    .partners__img {
+        flex-wrap: wrap;
+        gap: 60px;
+        width: 100%;
     }
 
     .partners__img {
