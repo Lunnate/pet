@@ -290,7 +290,15 @@
     }
 
     .feature__link--bot {
-        left: 80px;
+        left: 65px;
+    }
+
+    .feature__img--top {
+        margin-right: 130px;
+    }
+
+    .feature__link--top {
+        right: 370px;
     }
 
     .pricing__header {
